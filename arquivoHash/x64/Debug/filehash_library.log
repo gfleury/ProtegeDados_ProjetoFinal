@@ -1,0 +1,17 @@
+﻿Build started 9/5/2012 2:04:54 AM.
+     1>Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\filehash_library\filehash_library.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\filehash_library.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         filehash_library.vcxproj -> Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\x64\Debug\filehash_library.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\filehash_library.unsuccessfulbuild".
+         Touching "x64\Debug\filehash_library.lastbuildstate".
+     1>Done Building Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\filehash_library\filehash_library.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33

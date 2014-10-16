@@ -1,0 +1,13 @@
+﻿Build started 5/21/2013 11:33:30 PM.
+     1>Project "Z:\Desktop\prj\ProjetoFinal\protegedados_exe\protegedados_exe.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\protegedados_exe.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\protegedados_exe.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt protegedados_exe.cpp
+         protegedados_exe.cpp
+     1>protegedados_exe.cpp(21): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+     1>Done Building Project "Z:\Desktop\prj\ProjetoFinal\protegedados_exe\protegedados_exe.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14

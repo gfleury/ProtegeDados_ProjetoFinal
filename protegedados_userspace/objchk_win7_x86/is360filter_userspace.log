@@ -1,0 +1,34 @@
+﻿Build started 9/6/2012 12:27:07 PM.
+     1>Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_userspace\is360filter_userspace.vcxproj" on node 3 (build target(s)).
+     1>Build:
+         call C:\WinDDK\7600.16385.1\bin\setenv.bat C:\WinDDK\7600.16385.1 chk win7
+         cd /d Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_userspace\
+         build
+         OACR monitor running already
+         path contains nonexistant c:\program files (x86)\microsoft visual studio 10.0\common7\tools\bin, removing
+         BUILD: Compile and Link for x86
+         
+         BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Computing Include file dependencies:
+         
+         BUILD: Start time: Thu Sep 06 12:27:07 2012
+         BUILD: Examining z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\is360filter_userspace directory for files to compile.
+         
+             z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\is360filter_userspace 
+         
+         Invalidating OACR warning log for 'root:x86chk'
+         BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Finish time: Thu Sep 06 12:27:08 2012
+         BUILD: Done
+         
+         
+         
+             0 files compiled - 1 Warning
+         
+     1>Done Building Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_userspace\is360filter_userspace.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

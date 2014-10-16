@@ -1,0 +1,36 @@
+TARGETNAME=protegedados_userspace
+TARGETTYPE=LIBRARY
+UMTYPE=console
+#USE_MSVCRT=1
+
+RELEASETYPE=CUSTOM
+TARGETPATH=..\
+
+USER_C_FLAGS=/GL-
+
+C_DEFINES=$(C_DEFINES) -DUNICODE -D_UNICODE
+
+LINKLIBS=$(SDK_LIB_PATH)\shell32.lib 
+
+INCLUDES=$(INCLUDES);         \
+         $(IFSKIT_INC_PATH);  \
+         $(DDK_INC_PATH);     \
+         ..\include
+
+TARGETLIBS=$(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltLib.lib \
+			..\x64\Debug\filehash_library.lib
+			#..\filehash\filehash\$(_BUILDARCH)\filehash.lib \
+			#..\md5\md5\$(_BUILDARCH)\md5.lib \
+			#..\hashtable\hashtable\$(_BUILDARCH)\hashtable.lib
+			
+
+
+
+SOURCES=protegedados_userspace.c \
+		service_install.c
+
+!if "$(DDK_TARGET_OS)"=="WinLH"
+_NT_TARGET_VERSION=$(_NT_TARGET_VERSION_WINXP)
+!endif
+

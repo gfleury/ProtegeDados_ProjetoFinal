@@ -1,0 +1,17 @@
+﻿Build started 5/21/2013 11:32:26 PM.
+     1>Project "Z:\Desktop\prj\ProjetoFinal\arquivoHash\arquivoHash.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\arquivoHash.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         arquivoHash.vcxproj -> Z:\Desktop\prj\ProjetoFinal\Release\arquivoHash.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\arquivoHash.unsuccessfulbuild".
+         Touching "Release\arquivoHash.lastbuildstate".
+     1>Done Building Project "Z:\Desktop\prj\ProjetoFinal\arquivoHash\arquivoHash.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

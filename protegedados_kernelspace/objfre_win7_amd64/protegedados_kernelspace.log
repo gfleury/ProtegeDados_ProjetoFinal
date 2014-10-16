@@ -1,0 +1,38 @@
+﻿Build started 5/21/2013 11:33:27 PM.
+     1>Project "Z:\Desktop\prj\ProjetoFinal\protegedados_kernelspace\protegedados_kernelspace.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         call C:\WinDDK\7600.16385.1\bin\setenv.bat C:\WinDDK\7600.16385.1 fre x64 win7
+         cd /d Z:\Desktop\prj\ProjetoFinal\protegedados_kernelspace\
+         build
+         OACR monitor running already
+         path contains nonexistant c:\program files (x86)\microsoft visual studio 10.0\common7\tools\bin, removing
+         path contains nonexistant c:\program files (x86)\microsoft sdks\windows\v7.0a\\lib\win64, removing
+         BUILD: Compile and Link for AMD64
+         
+         BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Computing Include file dependencies:
+         
+         BUILD: Start time: Tue May 21 23:33:28 2013
+         BUILD: Examining z:\desktop\prj\projetofinal\protegedados_kernelspace directory for files to compile.
+         
+             z:\desktop\prj\projetofinal\protegedados_kernelspace 
+         
+         Invalidating OACR warning log for 'root:amd64fre'
+         BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Compiling and Linking z:\desktop\prj\projetofinal\protegedados_kernelspace directory
+         
+         Configuring OACR for 'root:amd64fre' - <OACR on>
+         BUILD: Finish time: Tue May 21 23:33:28 2013
+         BUILD: Done
+         
+         
+         
+             0 files compiled - 3 Warnings
+         
+     1>Done Building Project "Z:\Desktop\prj\ProjetoFinal\protegedados_kernelspace\protegedados_kernelspace.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25

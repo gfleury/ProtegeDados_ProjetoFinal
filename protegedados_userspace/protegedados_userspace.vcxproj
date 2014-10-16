@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Itanium">
+      <Configuration>Debug</Configuration>
+      <Platform>Itanium</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Itanium">
+      <Configuration>Release</Configuration>
+      <Platform>Itanium</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CEE0FA1C-43C4-41A2-A6B1-87CFB4C326F1}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectName>protegedados_userspace</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk win7
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_win7_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_win7_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk win7
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_win7_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_win7_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_win7_x86\i386\miniuser.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk win7
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_win7_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_win7_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk win7
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_win7_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_win7_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_win7_x86\i386\miniuser.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre win7
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_win7_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_win7_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre win7
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_win7_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_win7_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_win7_x86\i386\miniuser.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre win7
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_win7_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_win7_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre win7
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_win7_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_win7_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_win7_x86\i386\miniuser.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk x64 win7
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_win7_amd64</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_win7_amd64
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk x64 win7
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_win7_amd64</IntDir>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_win7_amd64\amd64\miniuser.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_AMD64_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <IncludePath>..\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre x64 win7
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_win7_amd64</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_win7_amd64
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre x64 win7
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_win7_amd64</IntDir>
+    <OutDir>$(ProjectDir)\objfre_win7_amd64</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_win7_amd64\amd64\miniuser.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_AMD64_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="$(ProjectDir)\sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="user\scanUser.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\hashtable.h" />
+    <ClInclude Include="..\include\protegeDados_userspace_export.h" />
+    <ClInclude Include="..\include\md5.h" />
+    <ClInclude Include="..\include\scanuk.h" />
+    <ClInclude Include="protegeDados_userspace.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="protegedados_userspace.c" />
+    <ClCompile Include="service_install.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

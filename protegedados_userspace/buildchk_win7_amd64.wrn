@@ -1,0 +1,4 @@
+ERROR - "z:\desktop\prj\projetofinal\protegedados_userspace" file time is slightly in the future (0x1ce66c94ad11880 (6/11/2013 17:29:57) vs. 0x1ce66c926f13648 (6/11/2013 17:28:56)).
+
+ERROR - "z:\desktop\prj\projetofinal\protegedados_userspace\objchk_win7_amd64\amd64\_objects.mac" file time is slightly in the future (0x1ce66c93856df00 (6/11/2013 17:29:26) vs. 0x1ce66c926f85d56 (6/11/2013 17:28:56)).
+

@@ -1,0 +1,8 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining z:\desktop\prj\projetofinal\protegedados_kernelspace directory for files to compile.
+oacr invalidate root:amd64fre /autocleanqueue
+ERROR - "z:\desktop\prj\projetofinal\protegedados_kernelspace\objfre_win7_amd64\amd64\_objects.mac" file time is slightly in the future (0x1ce5694be68a280 (5/22/2013 2:33:29) vs. 0x1ce5694be401a86 (5/22/2013 2:33:28)).
+
+1>Compiling and Linking z:\desktop\prj\projetofinal\protegedados_kernelspace *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\7600.16385.1\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>z:\desktop\prj\projetofinal\protegedados_kernelspace: TARGETPATH is ..

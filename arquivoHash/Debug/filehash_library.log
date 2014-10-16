@@ -1,0 +1,22 @@
+﻿Build started 9/6/2012 12:27:05 PM.
+     1>Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\filehash_library\filehash_library.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\filehash_library.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /GF /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /Zl /errorReport:prompt hashtable_control.c
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+         hashtable_control.c
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\Debug\filehash_library.lib" /NOLOGO /NODEFAULTLIB /WX Debug\filehash.obj
+         Debug\hashtable.obj
+         Debug\hashtable_control.obj
+         Debug\md5.obj
+         filehash_library.vcxproj -> Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\Debug\filehash_library.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\filehash_library.unsuccessfulbuild".
+         Touching "Debug\filehash_library.lastbuildstate".
+     1>Done Building Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\filehash_library\filehash_library.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56

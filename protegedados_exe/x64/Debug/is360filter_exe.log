@@ -1,0 +1,26 @@
+﻿Build started 9/6/2012 11:49:36 AM.
+     1>Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_exe\is360filter_exe.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\is360filter_exe.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\x64\Debug\is360filter_exe.exe" /INCREMENTAL /NOLOGO is360filter_userspace.lib filehash_library.lib fltLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\is360filter_exe.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\x64\Debug\is360filter_exe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\x64\Debug\is360filter_exe.lib" /MACHINE:X64 x64\Debug\is360filter_exe.exe.embed.manifest.res
+         x64\Debug\is360filter_exe.obj
+         is360filter_exe.vcxproj -> Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\x64\Debug\is360filter_exe.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\is360filter_exe.exe.embed.manifest" /manifest x64\Debug\is360filter_exe.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         is360filter_exe.vcxproj -> Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\x64\Debug\is360filter_exe.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\is360filter_exe.unsuccessfulbuild".
+         Touching "x64\Debug\is360filter_exe.lastbuildstate".
+     1>Done Building Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_exe\is360filter_exe.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42

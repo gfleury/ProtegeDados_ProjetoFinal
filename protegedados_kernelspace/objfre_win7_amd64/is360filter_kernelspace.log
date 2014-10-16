@@ -1,0 +1,41 @@
+﻿Build started 9/13/2012 5:47:32 PM.
+     1>Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_kernelspace\is360filter_kernelspace.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         call C:\WinDDK\7600.16385.1\bin\setenv.bat C:\WinDDK\7600.16385.1 fre x64 win7
+         cd /d Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_kernelspace\
+         build
+         OACR monitor running already
+         path contains nonexistant c:\program files (x86)\microsoft visual studio 10.0\common7\tools\bin, removing
+         path contains nonexistant c:\program files (x86)\microsoft sdks\windows\v7.0a\\lib\win64, removing
+         BUILD: Compile and Link for AMD64
+         
+         BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Computing Include file dependencies:
+         
+         BUILD: Start time: Thu Sep 13 17:47:33 2012
+         BUILD: Examining z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\is360filter_kernelspace directory for files to compile.
+         
+             z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\is360filter_kernelspace 
+         
+         BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Compiling and Linking z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\is360filter_kernelspace directory
+         
+         Configuring OACR for 'root:amd64fre' - <OACR on>
+         Compiling - is360filter_kernelspace.c
+         Linking Executable - z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\amd64\is360filter.sys
+         BUILD: Finish time: Thu Sep 13 17:47:37 2012
+         BUILD: Done
+         
+         
+         
+             3 files compiled - 3 Warnings
+         
+             1 executable built
+         
+     1>Done Building Project "Z:\Desktop\prj\source\java\svn\infra360\agente\trunk\IS360_filter\is360filter_kernelspace\is360filter_kernelspace.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.23

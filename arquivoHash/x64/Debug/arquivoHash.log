@@ -1,0 +1,24 @@
+﻿Build started 6/11/2013 2:28:54 PM.
+     1>Project "Z:\Desktop\prj\ProjetoFinal\arquivoHash\arquivoHash.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\arquivoHash.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Z7 /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /GF /Gm /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR- /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gz /TC /Zl /errorReport:prompt hashtable_control.c
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+         hashtable_control.c
+     1>hashtable_control.c(178): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>hashtable_control.c(185): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"Z:\Desktop\prj\ProjetoFinal\x64\Debug\arquivoHash.lib" /NOLOGO /NODEFAULTLIB /WX /MACHINE:X64 x64\Debug\arquivoHash.obj
+         x64\Debug\hashtable.obj
+         x64\Debug\hashtable_control.obj
+         x64\Debug\md5.obj
+         arquivoHash.vcxproj -> Z:\Desktop\prj\ProjetoFinal\x64\Debug\arquivoHash.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\arquivoHash.unsuccessfulbuild".
+         Touching "x64\Debug\arquivoHash.lastbuildstate".
+     1>Done Building Project "Z:\Desktop\prj\ProjetoFinal\arquivoHash\arquivoHash.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28

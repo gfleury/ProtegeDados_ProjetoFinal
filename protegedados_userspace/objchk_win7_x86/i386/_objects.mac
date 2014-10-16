@@ -1,0 +1,17 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\is360filter_userspace.obj \
+ $(OBJ_PATH)\$O\service_install.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\is360filter_userspace
+OBJ_PATH=z:\desktop\prj\source\java\svn\infra360\agente\trunk\is360_filter\is360filter_userspace
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

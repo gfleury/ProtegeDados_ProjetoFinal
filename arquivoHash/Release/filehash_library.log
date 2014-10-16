@@ -1,0 +1,26 @@
+﻿Build started 5/21/2013 10:57:59 PM.
+     1>Project "Z:\Desktop\prj\ProjetoFinal\filehash_library\filehash_library.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\arquivoHash.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt arquivoHash.c hashtable.c hashtable_control.c md5.c
+         arquivoHash.c
+     1>Z:\Desktop\prj\ProjetoFinal\include\arquivoHash.h(14): warning C4103: 'z:\desktop\prj\projetofinal\include\arquivohash.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>arquivoHash.c(10): warning C4103: 'z:\desktop\prj\projetofinal\filehash_library\arquivohash.c' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         hashtable.c
+         hashtable_control.c
+         md5.c
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Z:\Desktop\prj\ProjetoFinal\Release\arquivoHash.lib" /NOLOGO /LTCG Release\arquivoHash.obj
+         Release\hashtable.obj
+         Release\hashtable_control.obj
+         Release\md5.obj
+         filehash_library.vcxproj -> Z:\Desktop\prj\ProjetoFinal\Release\arquivoHash.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\arquivoHash.unsuccessfulbuild".
+         Touching "Release\arquivoHash.lastbuildstate".
+     1>Done Building Project "Z:\Desktop\prj\ProjetoFinal\filehash_library\filehash_library.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03

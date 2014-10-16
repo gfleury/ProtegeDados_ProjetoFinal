@@ -1,0 +1,50 @@
+﻿Build started 5/21/2013 11:33:29 PM.
+     1>Project "Z:\Desktop\prj\ProjetoFinal\protegedados_userspace\protegedados_userspace.vcxproj" on node 3 (build target(s)).
+     1>Build:
+         call C:\WinDDK\7600.16385.1\bin\setenv.bat C:\WinDDK\7600.16385.1 fre x64 win7
+         cd /d Z:\Desktop\prj\ProjetoFinal\protegedados_userspace\
+         build
+         OACR monitor running already
+         path contains nonexistant c:\program files (x86)\microsoft visual studio 10.0\common7\tools\bin, removing
+         path contains nonexistant c:\program files (x86)\microsoft sdks\windows\v7.0a\\lib\win64, removing
+         BUILD: Compile and Link for AMD64
+         
+         BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Computing Include file dependencies:
+         
+         BUILD: Start time: Tue May 21 23:33:29 2013
+         BUILD: Examining z:\desktop\prj\projetofinal\protegedados_userspace directory for files to compile.
+         
+             z:\desktop\prj\projetofinal\protegedados_userspace 
+         
+         Invalidating OACR warning log for 'root:amd64fre'
+             z:\desktop\prj\projetofinal\protegedados_userspace - 1 source files (38 lines)
+         
+         BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+         
+         BUILD: Compiling z:\desktop\prj\projetofinal\protegedados_userspace directory
+         
+         Configuring OACR for 'root:amd64fre' - <OACR on>
+         Compiling - protegedados_userspace.c
+         1>errors in directory z:\desktop\prj\projetofinal\protegedados_userspace
+     1>z:\desktop\prj\projetofinal\protegedados_userspace\protegedados_userspace.c(36): error C1083: Cannot open include file: 'filehash_library.h': No such file or directory
+         Building Library - z:\desktop\prj\projetofinal\amd64\protegedados_userspace.lib
+     1>1>link : error LNK1181: cannot open input file 'z:\desktop\prj\projetofinal\protegedados_userspace\objfre_win7_amd64\amd64\protegedados_userspace.obj'
+         BUILD: Finish time: Tue May 21 23:33:30 2013
+         BUILD: Done
+         
+         
+         
+             3 files compiled - 4 Warnings - 1 Error
+         
+             1 library built - 1 Error
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "call C:\WinDDK\7600.16385.1\bin\setenv.bat C:\WinDDK\7600.16385.1 fre x64 win7
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: cd /d Z:\Desktop\prj\ProjetoFinal\protegedados_userspace\
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: build" exited with code 1.
+     1>Done Building Project "Z:\Desktop\prj\ProjetoFinal\protegedados_userspace\protegedados_userspace.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.76

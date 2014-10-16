@@ -1,0 +1,12 @@
+TARGETNAME=protegedados
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+
+RELEASETYPE=CUSTOM
+TARGETPATH=..\
+
+TARGETLIBS= $(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltMgr.lib
+
+INCLUDES=..\include
+SOURCES=protegedados_kernelspace.c
